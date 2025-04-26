@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(to top, #eecda3, #ef629f);
+  font-family: 'Poppins', sans-serif;
+}
+
+#container {
+  background: #fff;
+  border-radius: 15px;
+  padding: 2rem;
+  min-height: 60vh;
+  box-shadow: 0 0 20px #eee;
+  width: 90%;
+  max-width: 350px;
+}
+form {
+  margin: 2rem 0 0 1rem;
+  
+ 
+}
+
+form input,
+select {
+  background-color: aliceblue;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 20px #eee;
+  outline: none;
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.dropdown {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.dropdown_container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.dropdown_container img {
+  height: 2.5rem;
+}
+
+/* .msg{
+  margin: 2rem 0 2rem 0;
+  text-align: center;
+  font-weight: bold;
+  color: #333;
+} */
+
+.msg {
+  margin: 2rem 0;
+  padding: 15px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #fff;
+  background: linear-gradient(135deg, #DD5E89, #859398); 
+  border-radius: 10px;  
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+  transition: background 0.3s ease; 
+}
+
+.msg:hover {
+  background: linear-gradient(135deg, #859398, #DD5E89); 
+}
+
+.msg {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.msg {
+  animation: fadeIn 1s ease-out;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.btn button {
+  background-image: linear-gradient(
+    to right,
+    #dd5e89 0%,
+    #f7bb97 51%,
+    #dd5e89 100%
+  );
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s ;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border: 1px solid white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+
+.btn button:hover {
+  background-position: right center;
+  transform: scale(1.05);
+}
+
